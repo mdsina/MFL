@@ -1,0 +1,21 @@
+{
+    "name": "MFL/MFL",
+    "description": "Simply MVC framework library",
+    "keywords": ["MVC", "framework", "php", "library"],
+    "homepage": "https://github.com/mdsina/MFL",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Daniil Mikhaylov",
+            "email": "info@mdsina.ru",
+            "homepage": "http://mdsina.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {"Framework\\": "Framework"}
+    }
+}
