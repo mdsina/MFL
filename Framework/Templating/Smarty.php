@@ -36,8 +36,6 @@ class Smarty implements TemplatingInterface
     public function Initialize()
     {
         $smartyParams = $this->getParams();
-
-        require($smartyParams['path'] . $smartyParams['file']);
         $this->setSmarty(new \Smarty());
 
         $this->getSmarty()->template_dir = $smartyParams['template_dir'];
